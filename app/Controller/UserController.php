@@ -15,12 +15,11 @@ use Hyperf\HttpServer\Annotation\RequestMapping;
 /**
  * @Controller()
  * Class UserController
- * @package App\Controller
  */
 class UserController
 {
     /**
-     * @RequestMapping(path='getuser', methods='get, post')
+     * @RequestMapping(path="getuser", methods="get, post")
      */
     public function getUser()
     {
