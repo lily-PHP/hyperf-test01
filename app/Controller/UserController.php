@@ -13,18 +13,17 @@ use Hyperf\HttpServer\Annotation\Controller;
 use Hyperf\HttpServer\Annotation\RequestMapping;
 
 /**
- * @Controller()
  * Class UserController
  */
 class UserController
 {
     /**
-     * @RequestMapping(path="getuser", methods="get, post")
+     *
      */
     public function getUser()
     {
         $userId = 666;
-        $info = 'my name is 李特辣';
+        $info = 'my name is 李特辣-1';
         return [
             'id' => $userId,
             'info' => $info
