@@ -17,7 +17,7 @@ use Hyperf\HttpServer\Annotation\RequestMapping;
  * Class UserController
  * @package App\Controller
  */
-class UserController extends Controller
+class UserController
 {
     /**
      * @RequestMapping(path='getuser', methods='get, post')
