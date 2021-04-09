@@ -17,4 +17,4 @@ Router::get('/favicon.ico', function () {
     return '';
 });
 
-Router::get('/getuser', 'App/Controller/UserController@getUser');
+Router::get('/getuser', 'App\Controller\UserController@getUser');
